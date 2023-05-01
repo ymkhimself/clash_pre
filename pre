@@ -1,0 +1,26 @@
+parsers: # array
+  - url: https://link.onesy.link/link/AxyP6ppW0q38rivo?clash=3
+    yaml: 
+      prepend-rules:
+      - DOMAIN-SUFFIX,douyin.com,DIRECT # rules最前面增加一个规则
+      - DOMAIN-SUFFIX,zhihu.com,DIRECT
+      - DOMAIN-SUFFIX,douyin.com,DIRECT
+      - DOMAIN-SUFFIX,taobao.com,DIRECT
+      - DOMAIN-SUFFIX,leetcode.cn,DIRECT
+      - DOMAIN-SUFFIX,csdn.net,DIRECT
+      - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+      - DOMAIN-SUFFIX,qq.com,DIRECT
+      - DOMAIN-SUFFIX,aliyun.com,DIRECT
+      - DOMAIN-SUFFIX,bilivideo.cn,DIRECT
+      - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+      - DOMAIN-SUFFIX,cnblogs.com,DIRECT
+      - DOMAIN-SUFFIX,baidu.com,DIRECT
+      - DOMAIN-SUFFIX,imooc.com,DIRECT
+      - DOMAIN-SUFFIX,zhipin.com,DIRECT
+      - DOMAIN-SUFFIX,douyucdn.com,DIRECT
+      - DOMAIN-SUFFIX,leetcode-cn.com,DIRECT
+      - DOMAIN-SUFFIX,golangroadmap.com,DIRECT
+      - DOMAIN-SUFFIX,draveness.me,DIRECT
+      - DOMAIN-SUFFIX,alipay.com,DIRECT
+      - DOMAIN-SUFFIX,alicdn.com,DIRECT
+      - DOMAIN-SUFFIX,programmercarl.com,DIRECT
